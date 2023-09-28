@@ -1,6 +1,11 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.empty.integrations:test
+  packages:
+  - name: EdgeEmpty
+    version: "1.0"
 packages:
 - name: EdgeEmpty
   gitServerName: testEdgeProjects
